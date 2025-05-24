@@ -10,8 +10,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { useRef } from "react";
 
-
-
 const Home = () => {
   const swiperRef = useRef(null);
   return (
@@ -41,18 +39,18 @@ const Home = () => {
             <input 
               type="text" 
               placeholder="Enter mobile number" 
-              className="flex-grow outline-none px-2" 
+              className="flex-grow outline-none" 
               aria-label="Enter mobile number"
             />
             <button className="bg-blue-500 text-white p-2 rounded">
-              <BiLogoTelegram className="text-xl" />
+              <BiLogoTelegram className="text-l" />
             </button>
           </label>
         </div>
 
         {/* Right Section - Image (Centers on Small Screens, Side-by-Side on Large Screens) */}
         <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
-          <img src="src/assets/homepage/stock-analytics.png" alt="Stock Analytics" className="h-auto w-full max-w-md" />
+          <img src="https://ik.imagekit.io/ipo22webapp/stock-analytics.png?updatedAt=1748066188360" alt="Stock Analytics" className="h-auto w-full max-w-md" />
         </div>
 
       </div>
@@ -212,21 +210,21 @@ const Home = () => {
             {/* Analytics Image + Name */}
             <div>
               <div className="flex flex-col items-center bg-orange-100 p-4 rounded-lg shadow-md">
-                <img src="src/assets/homepage/equity.png" alt="Equity Insights" className="h-24 w-24" />
+                <img src="https://ik.imagekit.io/ipo22webapp/equity.png?updatedAt=1748066661409" alt="Equity Insights" className="h-24 w-24" />
               </div>
               <p className="mt-2 font-semibold text-center">Analytics</p>
             </div>
             {/* Blogs Image + Name */}
             <div>
               <div className="flex flex-col items-center bg-blue-100 p-4 rounded-lg shadow-md">
-                <img src="src/assets/homepage/candles-blogs.png" alt="Candlestick Blogs" className="h-24 w-24" />
+                <img src="https://ik.imagekit.io/ipo22webapp/candles-blogs.png?updatedAt=1748066662926" alt="Candlestick Blogs" className="h-24 w-24" />
               </div>
               <p className="mt-2 font-semibold text-center">Blogs</p>
             </div>
             {/* Videos Image + Name */}
             <div>
               <div className="flex flex-col items-center bg-red-100 p-4 rounded-lg shadow-md">
-                <img src="src/assets/homepage/play-btn.png" alt="Video Resources" className="h-24 w-24" />
+                <img src="https://ik.imagekit.io/ipo22webapp/play-btn.png?updatedAt=1748066660332" alt="Video Resources" className="h-24 w-24" />
               </div>
               <p className="mt-2 font-semibold text-center">Videos</p>
             </div>
@@ -262,7 +260,7 @@ const Home = () => {
           {/* QR Code Section */}
           <div className="mt-12 flex flex-row items-center gap-6">
             {/* QR Code Image */}
-            <img src="src/assets/homepage/app-qr.png" alt="QR Code" className="h-40 w-40 rounded" />
+            <img src="https://ik.imagekit.io/ipo22webapp/app-qr.png?updatedAt=1748066885554" alt="QR Code" className="h-40 w-40 rounded" />
 
             {/* Text Content - Positioned Next to Image */}
             <div className="flex flex-col">
@@ -277,12 +275,10 @@ const Home = () => {
 
         {/* Right Section - Mobile App Image */}
         <div className="w-full md:w-1/2 flex justify-end">
-          <img src="src/assets/homepage/mobileapp-logo.png" alt="Mobile App Preview" className="h-auto w-full max-w-md bg-transparent" />
+          <img src="https://ik.imagekit.io/ipo22webapp/mobileapp-logo.png?updatedAt=1748066886100" alt="Mobile App Preview" className="h-auto w-full max-w-md bg-transparent" />
         </div>
       </div>
-      {/*In Mobile View Dispaly this */}
       
-
       {/* sixth Section - Below First */}
       <div className="container mx-auto flex flex-col items-center mb-10">
 
@@ -295,12 +291,12 @@ const Home = () => {
           <div className="flex gap-4 md:gap-6 items-center">
             {/* Google Play Store */}
             <a href="https://play.google.com/store/apps/details?id=in.bluestock.app" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/homepage/playstore-logo.png" alt="Playstore Logo" className="h-8 md:h-10 w-auto" />
+              <img src="https://ik.imagekit.io/ipo22webapp/playstore-logo.png?updatedAt=1748067039337" alt="Playstore Logo" className="h-8 md:h-10 w-auto" />
             </a>
 
             {/* Apple App Store */}
             <a href="https://apps.apple.com/us/app/example-app/id1234567890" target="_blank" rel="noopener noreferrer">
-              <img src="src/assets/homepage/applestore-logo.png" alt="Appstore Logo" className="h-8 md:h-10 w-auto" />
+              <img src="https://ik.imagekit.io/ipo22webapp/applestore-logo.png?updatedAt=1748067039334" alt="Appstore Logo" className="h-8 md:h-10 w-auto" />
             </a>
           </div>
         </div>
@@ -395,13 +391,13 @@ const Home = () => {
           {/* Broker Selection Boxes */}
           <div className="mt-6 flex flex-col md:flex-row gap-6 w-full">
             <div className="flex flex-row items-center bg-blue-200 text-white p-4 rounded-lg w-full md:w-1/2">
-              <img src="src/assets/homepage/angelone-logo.png" alt="Angel One Logo" className="h-14 w-auto" />
+              <img src="https://ik.imagekit.io/ipo22webapp/angelone-logo.png?updatedAt=1748067039309" alt="Angel One Logo" className="h-14 w-auto" />
               <p className="ml-4 font-semibold">Angel One</p>
               <MdArrowDropDown className="ml-auto text-3xl" />
             </div>
 
             <div className="flex flex-row items-center bg-blue-200 text-white p-4 rounded-lg w-full md:w-1/2">
-              <img src="src/assets/homepage/zerodha-logo.png" alt="Zerodha Logo" className="h-14 w-auto" />
+              <img src="https://ik.imagekit.io/ipo22webapp/zerodha-logo.png?updatedAt=1748067039721" alt="Zerodha Logo" className="h-14 w-auto" />
               <p className="ml-4 font-semibold">Zerodha</p>
               <MdArrowDropDown className="ml-auto text-3xl" />
             </div>
@@ -418,7 +414,7 @@ const Home = () => {
 
         {/* Right Section - IPO Image (Wrap Below on Small Screens) */}
         <div className="w-full md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
-          <img src="src/assets/homepage/ipo.png" alt="IPO Illustration" className="h-auto w-full max-w-md" />
+          <img src="https://ik.imagekit.io/ipo22webapp/ipo.png?updatedAt=1748066886021" alt="IPO Illustration" className="h-auto w-full max-w-md" />
         </div>
 
       </div>

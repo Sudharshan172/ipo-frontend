@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto">
 
         {/* Footer Content - Grid Layout */}
-        <div className="flex flex-wrap gap-4 text-left mb-10 p-10">
+        <div className="flex flex-wrap gap-4 text-center mb-10 p-10">
           <div className="w-[10%] min-w-[200px]">
             <h3 className="font-bold mb-3">Resources</h3>
             <ul>

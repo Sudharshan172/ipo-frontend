@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
-import IPO from "./pages/IPO";
+import IPO from "./pages/IPO/IPO";
+import Upcoming from "./pages/IPO/Upcoming";
 import Community from "./pages/Community";
 import LiveNews from "./pages/LiveNews";
 
@@ -26,6 +27,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/ipo" element={<IPO />} />
+            <Route path="/ipo/upcoming" element={<Upcoming/>}/>
             <Route path="/community" element={<Community/>}/>
             <Route path="/live-news" element={<LiveNews />} />
 
